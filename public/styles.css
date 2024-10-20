@@ -28,6 +28,18 @@ p {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
+/* Banner */
+.banner {
+  margin-bottom: 20px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 400px; /* Adjust banner width */
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+}
+
 .profile-card {
   background-color: #23272a;
   padding: 20px;
