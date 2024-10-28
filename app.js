@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 const CLIENT_ID = "1272560974578319424";
 const CLIENT_SECRET = "IK7vUMv2zwCjOjNjxEnMj2uaM4OjepLH";
-const REDIRECT_URI = "http://localhost:3000/callback";
+const REDIRECT_URI = "http://localhost:4444/callback";
 
 // Discord OAuth2 login route
 app.get("/login", (req, res) => {
@@ -229,6 +229,6 @@ app.get("/:customPath", (req, res) => {
 });
 
 // Start the server
-app.listen(3000, () => {
-  console.log("Server running on http://localhost:3000");
+app.listen(4444, () => {
+  console.log("Server running on http://localhost:4444");
 });
